@@ -32,12 +32,70 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+  text-align: center;
 }
-ol, ul {
+container{
+  display: inline-block;
+}
+ul {
 	list-style: none;
+  display: inline-block;
+  float: center;
+  margin: 19px;
+  padding: 13px;
 }
 blockquote, q {
 	quotes: none;
+}
+li {
+  display: inline;
+}
+li {
+  float: center;
+}
+
+a {
+  display: inline-block;
+  padding: 10px;
+  background-color: #858183;
+}
+li {
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+ul {
+  border: 1px solid #e2bebe;
+  background-color: #f3f3f3;
+}
+
+li a {
+  color: rgb(230, 142, 248);
+}
+ul {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -47,6 +105,12 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+ul{
+  padding: 18px;
+  display: inline-block;
+  margin: 2%;
+
 }
 
 
@@ -63,6 +127,7 @@ html {
 html, body {
   font-family: sans-serif;
   color: black;
+  background-color: darkgray;
 }
 
 h1, h2, h3, h4, h5 {
@@ -96,6 +161,7 @@ p {
     background-color: #fdeaea;
     justify-content: center;
     padding: 72px;
+    text-align: center;
 }
 
 .attraction-images .images{
@@ -114,6 +180,7 @@ p {
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+      text-align: center;
 }
 
 
@@ -122,6 +189,7 @@ p {
     padding: 50px 60px;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .visit-africa .visit-text {
